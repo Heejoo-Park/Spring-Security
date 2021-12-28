@@ -26,7 +26,7 @@ public class IndexController {
 		// Mustache 기본 폴더 src/main/resouces/
 		// ViewResolver 설정 : templates (prefix) / mustache (suffix)
 		
-		// src/main/resouces/templates/index.mustache로 잡힘
+		// src/main/resouces/templates/index.mustache로 잡힘 
 		return "index"; 
 		// 경로 설정이  잘못되어있으므로 WegbMvcConfig 에서 설정 다시 잡아줌 
 	}
